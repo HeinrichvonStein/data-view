@@ -53,6 +53,7 @@ public class MainView extends LitTemplate {
                     password.getValue()
             );
             dataSource = dataSourceConfig.getDataSource();
+
             Notification notification;
             try {
                 connection = dataSource.getConnection();
